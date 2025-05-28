@@ -2,7 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   experimental: {
-    appDir: true,
+    fontLoaders: [
+      { loader: '@next/font/google', options: { timeout: 30000 } },
+    ],
   },
 }
 
