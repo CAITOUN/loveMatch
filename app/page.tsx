@@ -18,7 +18,7 @@ export default function IndexPage() {
             通过先进的 AI 技术，为您找到最契合的伴侣。基于科学的问卷和个性化分析，让爱情更简单。
           </p>
           <div className="flex gap-4">
-            <Link href="/quiz" className={buttonVariants({ size: "lg" })}>
+            <Link href="/questionnaire" className={buttonVariants({ size: "lg" })}>
               开始测试
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
